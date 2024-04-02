@@ -8,10 +8,10 @@ remappings = [
     'ds-test/=lib/forge-std/lib/ds-test/src/',
     'seadrop/=src/',
 ]
-optimizer_runs = 1_000_000
+optimizer_runs = 10_000_000
 # via_ir = true
 ignored_error_codes = []
-bytecode_hash = "none"
+# bytecode_hash = "none"
 
 [profile.upgradeable]
 src = 'src-upgradeable/src/'
